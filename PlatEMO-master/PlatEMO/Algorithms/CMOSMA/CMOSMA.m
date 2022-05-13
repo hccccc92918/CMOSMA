@@ -50,7 +50,7 @@ function CMOSMA(Global)
         Offspring2  =GA([AP,AP(MatingPool2)]);%GA
         [FP] = EnvironmentalSelection([FP,Offspring1,Offspring2],Global.N,true);
         [AP] = EnvironmentalSelection([AP,Offspring1,Offspring2],Global.N,false);
-         % Update the training set
+        % Update the training set
         S = setdiff(FP.decs,A1,'rows');
         S2 = setdiff(AP.decs,A2,'rows'); 
     end
