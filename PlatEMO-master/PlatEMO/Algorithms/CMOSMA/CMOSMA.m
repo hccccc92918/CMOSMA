@@ -3,10 +3,10 @@ function CMOSMA(Global)
 % D    ---     --- Number of neurons in each dimension of the latent space
 % tau0 --- 0.7 --- Initial learning rate
 % H    ---   5 --- Size of neighborhood mating pools
-% A self-organizing neural network approach for Constrained Multi-Objective Optimization Problems
+% A self-organizing map approach for constrained multi-objective optimization problems
 %------------------------------- R  eference --------------------------------
-% C. He, M. Li, C. Zhang et al,Self-organizing map approach for constrained multi-objective 
-% optimization problems,Complex & Intelligent Systems,2022.
+% C. He, M. Li, C. Zhang et al,A self-organizing map approach for constrained multi-objective
+% optimization problems, Complex & Intelligent Systems,2022.
 %--------------------------------------------------------------------------
     %% Parameter setting
     [D,tau0,H] = Global.ParameterSet(repmat(ceil(Global.N.^(1/(Global.M-1))),1,Global.M-1),0.7,5);
