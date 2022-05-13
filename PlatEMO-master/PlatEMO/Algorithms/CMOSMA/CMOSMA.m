@@ -5,7 +5,7 @@ function CMOSMA(Global)
 % H    ---   5 --- Size of neighborhood mating pools
 % A self-organizing map approach for constrained multi-objective optimization problems
 %------------------------------- R  eference --------------------------------
-% C. He, M. Li, C. Zhang et al,A self-organizing map approach for constrained multi-objective
+% C. He, M. Li, C. Zhang et al, A self-organizing map approach for constrained multi-objective
 % optimization problems, Complex & Intelligent Systems,2022.
 %--------------------------------------------------------------------------
     %% Parameter setting
