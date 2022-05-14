@@ -4,7 +4,7 @@ function CMOSMA(Global)
 % tau0 --- 0.7 --- Initial learning rate
 % H    ---   5 --- Size of neighborhood mating pools
 % A self-organizing map approach for constrained multi-objective optimization problems
-%------------------------------- R  eference --------------------------------
+%------------------------------- Reference --------------------------------
 % C. He, M. Li, C. Zhang et al, A self-organizing map approach for constrained multi-objective
 % optimization problems, Complex & Intelligent Systems,2022.
 %--------------------------------------------------------------------------
@@ -45,12 +45,12 @@ function CMOSMA(Global)
         [MatingPool2] = MatingPool(XU2,Global.N,B2);
         % Evolution
         A1 = FP.decs;
-        Offspring1  =GA([FP,FP(MatingPool1)]);%GA
+        Offspring1  =GA([FP(XU),FP(MatingPool1)]);%GA
         A2 = AP.decs;
-        Offspring2  =GA([AP,AP(MatingPool2)]);%GA
+        Offspring2  =GA([AP(XU2),AP(MatingPool2)]);%GA
         [FP] = EnvironmentalSelection([FP,Offspring1,Offspring2],Global.N,true);
         [AP] = EnvironmentalSelection([AP,Offspring1,Offspring2],Global.N,false);
-        % Update the training set
+         % Update the training set
         S = setdiff(FP.decs,A1,'rows');
         S2 = setdiff(AP.decs,A2,'rows'); 
     end
