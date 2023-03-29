@@ -20,3 +20,7 @@ If you find the code or datasets helpful in your research, please cite:
   year={2022},
   publisher={Springer}
 }
+
+<div align="center">
+  <img src="https://github.com/hccccc92918/CMOSMA/blob/master/data/Fig12.jpg">
+</div>
