@@ -16,11 +16,14 @@ If you find the code or datasets helpful in your research, please cite:
   title={A self-organizing map approach for constrained multi-objective optimization problems},
   author={He, Chao and Li, Ming and Zhang, Congxuan and Chen, Hao and Zhong, Peilong and Li, Zhengxiu and Li, Junhua},
   journal={Complex \& Intelligent Systems},
-  pages={1--21},
+  volume={8},
+  number={6},
+  pages={5355--5375},
   year={2022},
   publisher={Springer}
 }
 
 <div align="center">
   <img src="https://github.com/hccccc92918/CMOSMA/blob/master/data/Fig12.jpg">
+  <img src="https://github.com/hccccc92918/CMOSMA/blob/master/data/Fig13.jpg">
 </div>
