@@ -2,7 +2,9 @@
 # A self-organizing map approach for constrained multi-objective optimization problems
 
 This repository contains implementation of CMOSMA:
-In this project, the CMOSMA is implemented within the platform of PlatEMO
+In this project, the CMOSMA is implemented within the platform of PlatEMO. CMOSMA can handle multi-objective constraint problems.
+
+Paper is now available at https://link.springer.com/article/10.1007/s40747-022-00761-2
 
 Dependencies
 
